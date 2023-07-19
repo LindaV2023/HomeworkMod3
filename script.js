@@ -24,7 +24,10 @@ function generatePassword() {
   var passwordLength = prompt("How many characters do you want in your password? Please choose between 8 and 129");
 
   if (passwordLength < 8 || passwordLength > 129) {
-    passwordLength = prompt("Please enter a password length of between 8 and 128 characters.");
+  //  passwordLength = prompt("Please enter a password length of between 8 and 128 characters.");
+  alert ("Please enter a number between 8 and 128")
+  generatePassword ()
+  return 
   }
   //  else {
   //alert("Password length is " + passwordLength + "characters."); 
@@ -43,18 +46,22 @@ function generatePassword() {
 var possibleChoice = "";
 
 if (lowerCase) {
+  console.log(lowerCase)
   possibleChoice = possibleChoice.concat(lowerCase);
 }
 
 if (upperCase) {
+  console.log(upperCase)
   possibleChoice = possibleChoice.concat(upperCase);
 }
 
 if (number) {
+  console.log(number)
   possibleChoice = possibleChoice.concat(number);
 }
 
 if (specialCharacter) {
+  console.log(specialCharacter)
   possibleChoice = possibleChoice.concat(specialCharacter);
 }
 
@@ -62,12 +69,13 @@ if (specialCharacter) {
 var password = "";
 for (var i = 0; i < passwordLength; i++) {
   var randomNumber = Math.floor(Math.random() * possibleChoice.length);
-  password += possibleChoice.substring(randomNumber, randomNumber + 1);
+  //password += possibleChoice.substring(randomNumber, randomNumber + 1);
+  password += possibleChoice[randomNumber]
 }
 return password 
 }
 
-console.log(generatePassword)
+
 
 //for (var i = 0; i <= passwordLength; i++) {
 //var randomNumber = Math.floor(Math.random() * lowerCase.length);
