@@ -1,11 +1,11 @@
 # HomeworkMod3
 
 ## DESCRIPTION
-Project is to use the given code to make a Password Generator that would produce a secure password. 
+Project is to use the given code to make a Password Generator that would produce a secure password.  
 
 ## USAGE
 This generator must be able to produce a password between 8 and 129 characters.  
-It also must ask the user is they would like lower or upper alpha characters, numbers and/or special symbols.
+It also must ask the user is they would like lower or upper alpha characters, numbers and/or special symbols, or any combination of those.
 
 ## USER STORY
 
@@ -38,7 +38,28 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
-## CREDITS
-Help with this project is credited to my tutor, Scott Everett and to the website Foolish Developer
+### CREDITS
+Help with this project is credited to my tutor, Scott Everett. The website: Foolish Developer.
+The following websites: Great Stack, Web Dev Simplified, Mosh Coding Made Simple.
+Also the Uconn Bootcamp class notes and examples.
+
+### Website and Screenshots:
+
+
+![image](https://github.com/LindaV2023/HomeworkMod3/assets/127782990/4aa1d2ae-ba3c-49c1-8c5f-6063e2f08d2f)
+
+![image](https://github.com/LindaV2023/HomeworkMod3/assets/127782990/a11ed5ca-a8ef-4e31-bf64-55f6e4f6dbec)
+
+![image](https://github.com/LindaV2023/HomeworkMod3/assets/127782990/592f2c7d-48db-4c1b-ba9b-50d6c8810d60)
+
+
+
+
+
+
+
+
+
+
 
 
