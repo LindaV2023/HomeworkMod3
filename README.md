@@ -7,6 +7,9 @@ Project is to use the given code to make a Password Generator that would produce
 This generator must be able to produce a password between 8 and 129 characters.  
 It also must ask the user is they would like lower or upper alpha characters, numbers and/or special symbols, or any combination of those.
 
+## NOTES
+For the Password Generator to work correctly each time the user must hit "refresh" before starting a new password.
+
 ## USER STORY
 
 AS AN employee with access to sensitive data
@@ -44,6 +47,8 @@ The following websites: Great Stack, Web Dev Simplified, Mosh Coding Made Simple
 Also the Uconn Bootcamp class notes and examples.
 
 ### Website and Screenshots:
+
+Link to website: ttps://lindav2023.github.io/HomeworkMod3/
 
 
 ![image](https://github.com/LindaV2023/HomeworkMod3/assets/127782990/4aa1d2ae-ba3c-49c1-8c5f-6063e2f08d2f)
